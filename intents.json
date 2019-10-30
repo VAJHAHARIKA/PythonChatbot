@@ -1,0 +1,35 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Wed Oct 30 22:18:38 2019
+
+@author: User
+"""
+
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello","Hey", "Good day"],
+         "responses": ["Hello!!", "Heya", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye"],
+         "responses": ["See you later!", "Have a nice day!!", "Bye! Come back again soon."]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"]
+        },
+        {"tag": "timepass",
+         "patterns": ["What are you doing?", "sup?", "Wassup?" ],
+         "responses": ["Ah!! been busy for a while. Tell me sup with you?", "Nothing much you tell me"]
+        },
+        {"tag": "let's talk",
+         "patterns": ["I wanna talk", "Hey let's talk", "talk to me" ],
+         "responses": ["Yeah sure!", "Absolutely!"]
+        },
+        {"tag": "free",
+         "patterns": ["Are you free ", "are you available?", "are you busy"],
+         "responses": ["Yes, a bit busy!", "A bit busy but never for you!"]
+        }
+   ]
+}
